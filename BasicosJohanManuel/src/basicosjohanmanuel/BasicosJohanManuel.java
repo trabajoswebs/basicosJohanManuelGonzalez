@@ -18,6 +18,26 @@ public class BasicosJohanManuel {
         // TODO code application logic here
         cadenas();  // Llamada al método
         numericos();  // Llamada al método
+        logicos();
+    }
+    
+    public static void logicos() {
+
+        //Estos son los tipos básicos
+        int random;
+        int edad;
+
+        //Ejemplos de asignación de valores a las variables de tipos básicos
+        random = (int) (Math.random() * (45 - 5 + 1) + 5) ;
+        edad = 18;
+        
+        //Mostrar en pantalla el contendido de las variables de tipos básicos.
+        if(random >= 18){
+            System.out.println("Ya tienes edad para aprender a conducir.");
+        }
+        else{
+            System.out.println("Eres muy joven para poder conducir");
+        }
     }
     
     /**
